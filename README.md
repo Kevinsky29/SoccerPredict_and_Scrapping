@@ -4,7 +4,7 @@
 - [Descripción](#descripción)
 - [Funciones para recopilar datos de equipos](#funciones-para-recopilar-datos-de-equipos)
 - [Uso](#uso)
-- [Resultados](#resultados)
+- [Resultados](#resultados-análisis-del-manchester-city)
 - [Archivos generados](#archivos-generados)
 - [Contribución](#contribución)
 - [Licencia](#licencia)
@@ -52,20 +52,8 @@ df_compiled_players.to_csv('MC_players.csv', index=False)
 
 A continuación se muestra una lista de las ligas disponibles actualmente en el proyecto:
 
-### Premier League
-![Premier League](/images_ligues/premier_league.png)
 
-### La Liga
-![La Liga](/images_ligues/LaLiga.png)
-
-### Serie A
-![Serie A](/images_ligues/Seria_A.jpg)
-
-### Bundesliga
-![Bundesliga](/images_ligues/Bundesliga.png)
-
-### Ligue 1
-![Ligue 1](/images_ligues/Ligue1.png)
+![Premier League](/images_ligues/premier_league.png)           ![La Liga](/images_ligues/LaLiga.png)            ![Bundesliga](/images_ligues/Bundesliga.png)          ![Ligue 1](/images_ligues/Ligue1.png)
 
 Puedes seleccionar una liga específica para recopilar datos utilizando el script correspondiente.
 
@@ -92,5 +80,32 @@ Puedes seleccionar una liga específica para recopilar datos utilizando el scrip
 5. **Análisis y uso de los datos:**
    - Una vez que se haya completado la ejecución del script, puedes utilizar los archivos CSV generados para análisis, visualizaciones u otras tareas relacionadas con los datos de fútbol recopilados.
    - Puedes cargar los archivos CSV en herramientas como Excel, pandas u otras bibliotecas de manipulación de datos para explorar y trabajar con los datos recopilados.
+  
+
+5. **Clona el repositorio a tu máquina local:**
+   ```shell
+   git clone https://github.com/Kevinsky29/SoccerPredict_and_Scrapp
 
 Ten en cuenta que el script proporcionado es un punto de partida para recopilar datos de equipos de fútbol y puedes personalizarlo según tus necesidades específicas.
+
+## Resultados: Análisis del Manchester City
+
+### Predicciones de Temporadas
+
+A continuación se presenta un gráfico que muestra los puntos obtenidos por el Manchester City en cada temporada:
+
+![Gráfico de puntos por temporada](images/mc_seasons.png)
+
+### Predicciones de Partidos
+
+Para realizar predicciones de los resultados de los partidos del Manchester City, se ha entrenado un modelo utilizando técnicas de aprendizaje automático. A continuación se muestra un gráfico que representa la probabilidad de obtener cada resultado (victoria, empate, derrota) en un partido:
+
+![Gráfico de predicción de resultados](images/mc_match_predictions.png)
+
+### Predicción de Rendimiento de Jugadores
+
+También se ha desarrollado un modelo para predecir el rendimiento de los jugadores del Manchester City. Puedes seleccionar un jugador y una columna objetivo para obtener una predicción del valor correspondiente:
+
+![Interfaz de predicción de rendimiento de jugadores](images/player_performance_prediction.png)
+
+¡Disfruta utilizando este proyecto y explorando los datos del Manchester City y otras ligas de fútbol!
