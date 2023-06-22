@@ -151,8 +151,7 @@ Si tienes alguna pregunta o sugerencia, no dudes en abrir un Issue para discutir
 
 Este proyecto fue desarrollado por un equipo de personas comprometidas y apasionadas. Agradecemos su arduo trabajo y dedicación en la creación y mejora de este proyecto:
 
-- [Joab Ramos Vivas]()
-
+- [Joab Ramos Vivas](https://github.com/Joabravi)
 
 
 Apreciamos enormemente las contribuciones de cada miembro del equipo y reconocemos su valiosa participación en el desarrollo de este proyecto.
