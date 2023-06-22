@@ -5,6 +5,7 @@
 - [Funciones para recopilar datos de equipos](#funciones-para-recopilar-datos-de-equipos)
 - [Uso](#uso)
 - [Resultados](#resultados-análisis-del-manchester-city)
+- [Modelos usados](#modelos-utilizados-para-las-predicciones)
 - [Archivos generados](#archivos-generados)
 - [Contribución](#contribución)
 - [Licencia](#licencia)
@@ -94,18 +95,64 @@ Ten en cuenta que el script proporcionado es un punto de partida para recopilar 
 
 A continuación se presenta un gráfico que muestra los puntos obtenidos por el Manchester City en cada temporada:
 
-![Gráfico de puntos por temporada](images/mc_seasons.png)
+![Gráfico de puntos por temporada](images_results/season_predict.png)
 
 ### Predicciones de Partidos
 
 Para realizar predicciones de los resultados de los partidos del Manchester City, se ha entrenado un modelo utilizando técnicas de aprendizaje automático. A continuación se muestra un gráfico que representa la probabilidad de obtener cada resultado (victoria, empate, derrota) en un partido:
 
-![Gráfico de predicción de resultados](images/mc_match_predictions.png)
+![Gráfico de predicción de resultados](images_results/match_real_time.png)
 
 ### Predicción de Rendimiento de Jugadores
 
 También se ha desarrollado un modelo para predecir el rendimiento de los jugadores del Manchester City. Puedes seleccionar un jugador y una columna objetivo para obtener una predicción del valor correspondiente:
 
-![Interfaz de predicción de rendimiento de jugadores](images/player_performance_prediction.png)
+![Interfaz de predicción de rendimiento de jugadores](images_results/performance_player.png)
 
+### Modelos Utilizados para las Predicciones
+
+Se utilizaron los siguientes modelos para realizar las predicciones en el proyecto:
+
+- **Predicciones de Temporadas:** Se utilizó un modelo de regresión lineal para predecir los puntos obtenidos por el Manchester City en cada temporada. El modelo fue entrenado utilizando los datos históricos de las temporadas anteriores.
+
+- **Predicciones de Partidos:** Se utilizó un modelo de redes neuronales artificiales (RNA) para predecir los resultados de los partidos del Manchester City. El modelo fue entrenado utilizando características como si el Manchester City jugaba en casa o como visitante, la cantidad de goles marcados por el equipo y el porcentaje de goles marcados tanto por el equipo como por el oponente.
+
+- **Predicción de Rendimiento de Jugadores:** Se utilizó un modelo de regresión lineal para predecir el rendimiento de los jugadores del Manchester City. El modelo fue entrenado utilizando características específicas de cada jugador, como goles marcados, asistencias y minutos jugados, entre otros.
+
+Estos modelos se utilizaron para realizar las predicciones correspondientes y proporcionar información adicional sobre el desempeño del Manchester City en las temporadas y los partidos, así como el rendimiento de los jugadores.
+
+## Archivos Generados
+
+Durante la ejecución del proyecto, se generarán algunos archivos que contienen los datos y resultados obtenidos. Estos archivos se encuentran en la carpeta "examples" del repositorio. A continuación se muestra una lista de los archivos generados:
+
+- `MC_matches.csv`: Archivo que contiene los datos de los partidos del Manchester City.
+- `MC_seasons.csv`: Archivo que contiene los datos de las temporadas del Manchester City.
+- `MC_players.csv`: Archivo que contiene los datos de los jugadores del Manchester City.
+
+Recuerda revisar la carpeta "Examples" para acceder a estos archivos generados.
+
+## Contribución
+
+¡Contribuciones son bienvenidas! Si deseas contribuir a este proyecto y agregar nuevas funcionalidades, mejorar el código existente o corregir errores, puedes seguir estos pasos:
+
+1. Realiza un Fork del repositorio.
+2. Crea una nueva rama con un nombre descriptivo para tu contribución.
+3. Realiza los cambios en tu repositorio local.
+4. Realiza commits con mensajes claros y descriptivos.
+5. Realiza un Push de tus cambios a tu repositorio remoto.
+6. Crea un Pull Request en el repositorio principal.
+
+Agradecemos mucho todas las contribuciones y esfuerzos para mejorar este proyecto..
+
+Si tienes alguna pregunta o sugerencia, no dudes en abrir un Issue para discutirlo. ¡Esperamos con ansias tus contribuciones!
 ¡Disfruta utilizando este proyecto y explorando los datos del Manchester City y otras ligas de fútbol!
+
+## Créditos
+
+Este proyecto fue desarrollado por un equipo de personas comprometidas y apasionadas. Agradecemos su arduo trabajo y dedicación en la creación y mejora de este proyecto:
+
+- [Joab Ramos Vivas]()
+
+
+
+Apreciamos enormemente las contribuciones de cada miembro del equipo y reconocemos su valiosa participación en el desarrollo de este proyecto.
