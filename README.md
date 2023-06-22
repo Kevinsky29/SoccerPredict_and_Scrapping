@@ -59,7 +59,7 @@ A continuación se muestra una lista de las ligas disponibles actualmente en el 
 ![La Liga](/images_ligues/LaLiga.png)
 
 ### Serie A
-![Serie A](/images_ligues/Seria_A.png)
+![Serie A](/images_ligues/Seria_A.jpg)
 
 ### Bundesliga
 ![Bundesliga](/images_ligues/Bundesliga.png)
