@@ -48,7 +48,9 @@ df_compiled.to_csv('MC_seasons.csv', index=False)
 df_compiled_players = pd.concat(player_dfs)
 df_compiled_players.to_csv('MC_players.csv', index=False)
 ```
+## Ligas Disponibles
 
+A continuación se muestra una lista de las ligas disponibles actualmente en el proyecto:
 
 ### Premier League
 ![Premier League](/images_ligues/premier_league.png)
@@ -57,7 +59,7 @@ df_compiled_players.to_csv('MC_players.csv', index=False)
 ![La Liga](/images_ligues/LaLiga.png)
 
 ### Serie A
-![Serie A](/images_ligues/premier_league.png)
+![Serie A](/images_ligues/Seria_A.png)
 
 ### Bundesliga
 ![Bundesliga](/images_ligues/Bundesliga.png)
