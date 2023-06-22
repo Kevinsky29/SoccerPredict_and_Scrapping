@@ -49,23 +49,21 @@ df_compiled_players = pd.concat(player_dfs)
 df_compiled_players.to_csv('MC_players.csv', index=False)
 ```
 
-### Liga 1
-![Liga 1](ruta_de_la_imagen_liga1.png)
 
 ### Premier League
-![Premier League](ruta_de_la_imagen_premierleague.png)
+![Premier League](/images_ligues/premier_league.png)
 
 ### La Liga
-![La Liga](ruta_de_la_imagen_laliga.png)
+![La Liga](/images_ligues/LaLiga.png)
 
 ### Serie A
-![Serie A](ruta_de_la_imagen_seriea.png)
+![Serie A](/images_ligues/premier_league.png)
 
 ### Bundesliga
-![Bundesliga](ruta_de_la_imagen_bundesliga.png)
+![Bundesliga](/images_ligues/Bundesliga.png)
 
 ### Ligue 1
-![Ligue 1](ruta_de_la_imagen_ligue1.png)
+![Ligue 1](/images_ligues/Ligue1.png)
 
 Puedes seleccionar una liga específica para recopilar datos utilizando el script correspondiente.
 
