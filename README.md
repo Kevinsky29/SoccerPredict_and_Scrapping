@@ -153,5 +153,6 @@ Este proyecto fue desarrollado por un equipo de personas comprometidas y apasion
 
 - [Joab Ramos Vivas](https://github.com/Joabravi)
 
+## Fuente de datos
 
-Apreciamos enormemente las contribuciones de cada miembro del equipo y reconocemos su valiosa participación en el desarrollo de este proyecto.
+La información utilizada en este proyecto se ha obtenido de [UnderStat](https://understat.com/).
