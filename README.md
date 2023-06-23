@@ -154,7 +154,7 @@ Este proyecto fue desarrollado por un equipo de personas comprometidas y apasion
 
 ## Fuente de datos
 
-UnderStat. (s.f.). UnderStat. Recuperado de[https://understat.com/](https://understat.com/)
+UnderStat. (s.f.). UnderStat. Recuperado de [https://understat.com/](https://understat.com/)
 
 Chollet, F., et al. (2015). Keras. Recuperado de [https://keras.io/](https://keras.io/)
 
