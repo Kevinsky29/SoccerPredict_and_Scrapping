@@ -8,7 +8,7 @@
 - [Modelos usados](#modelos-utilizados-para-las-predicciones)
 - [Archivos generados](#archivos-generados)
 - [Contribución](#contribución)
-- [Referencias] (#fuente-de-datos)
+- [Referencias](#fuente-de-datos)
 ## Descripción
 Este proyecto contiene scripts robustos de Python que utilizan técnicas de web scraping para recopilar datos detallados de partidos de fútbol de diversas fuentes en la web. Con un enfoque en ligas y torneos internacionales importantes, los datos recopilados abarcan varias categorías, incluyendo estadísticas de jugadores, rendimiento de equipos, resultados históricos y mucho más.
 
