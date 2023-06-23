@@ -8,8 +8,7 @@
 - [Modelos usados](#modelos-utilizados-para-las-predicciones)
 - [Archivos generados](#archivos-generados)
 - [Contribución](#contribución)
-- [Licencia](#licencia)
-
+- [Referencias] (fuente-de-datos)
 ## Descripción
 Este proyecto contiene scripts robustos de Python que utilizan técnicas de web scraping para recopilar datos detallados de partidos de fútbol de diversas fuentes en la web. Con un enfoque en ligas y torneos internacionales importantes, los datos recopilados abarcan varias categorías, incluyendo estadísticas de jugadores, rendimiento de equipos, resultados históricos y mucho más.
 
@@ -150,9 +149,16 @@ Si tienes alguna pregunta o sugerencia, no dudes en abrir un Issue para discutir
 ## Créditos
 
 Este proyecto fue desarrollado por un equipo de personas comprometidas y apasionadas. Agradecemos su arduo trabajo y dedicación en la creación y mejora de este proyecto:
-
+- [Kevin Alexis Mejia Garfias](https://github.com/Kevinsky29)
 - [Joab Ramos Vivas](https://github.com/Joabravi)
 
 ## Fuente de datos
 
-La información utilizada en este proyecto se ha obtenido de [UnderStat](https://understat.com/).
+UnderStat. (s.f.). UnderStat. Recuperado de[https://understat.com/](https://understat.com/)
+
+Chollet, F., et al. (2015). Keras. Recuperado de [https://keras.io/](https://keras.io/)
+
+Web-scrapping-soccer: [Scrape Footbal Data (from WhoScored)](https://www.youtube.com/watch?v=pldET6VWrbQ)
+
+Artículo de predicción en fútbol: [Model for Prediction of the Result of a Soccer Match Based on the Number of Goals Scored by a Single Team](scielo.org.mx/scielo.php?script=sci_arttext&pid=S1405-55462022000100295)
+
